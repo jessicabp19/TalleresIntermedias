@@ -1,0 +1,21 @@
+.contenedor{
+    width: 950px;
+    text-align: center;
+    margin: auto;
+    background: cornflowerblue;
+    padding: 50px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font: bold 40px sans-serif;
+}
+
+header, footer, div, nav, aside{
+    border: 1px solid black;
+}
