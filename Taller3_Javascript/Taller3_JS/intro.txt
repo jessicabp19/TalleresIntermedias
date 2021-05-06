@@ -1,0 +1,51 @@
+
+//*********TIPOS DE DATOS***************
+
+//String
+"este es un string"
+'otro string'
+
+'este es "un ejemplo"'
+
+//Numericos
+1000
+10.5
+
+//Booleanos
+true
+false
+
+//Arreglos
+['uno', 'dos', 'tres']
+[1,2,3]
+[true, false, true]
+
+//************OBJETOS***************
+
+//De esto...
+"pepe"
+18
+true
+
+//A esto...
+{
+    "username": "pepe",
+    "age": 18,
+    "single": true,
+    "otra": false
+}
+
+
+//VARIABLES
+var name = "maria";
+
+let n = 10;
+
+
+//CONSTANTES
+const pi = 3.1415;
+
+
+//Camelcase
+primerNombre
+esteEsUnNombre

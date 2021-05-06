@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "b572b8c0-e0ad-48b8-8230-f3cffc79a191",
+		"name": "TalleresIntermedias1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://crudcrud.com/api/5f8d94e9a14c49dea681c6db84aedb74/unicorns",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://crudcrud.com/api/5f8d94e9a14c49dea681c6db84aedb74/",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"5f8d94e9a14c49dea681c6db84aedb74",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://crudcrud.com/api/5f8d94e9a14c49dea681c6db84aedb74/superheroes/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Superheroe\": \"Hulk\",\r\n    \"poder\":      \".\",\r\n    \"genero\":      \"M\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://crudcrud.com/api/5f8d94e9a14c49dea681c6db84aedb74/superheroes/",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"5f8d94e9a14c49dea681c6db84aedb74",
+						"superheroes",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://crudcrud.com/api/5f8d94e9a14c49dea681c6db84aedb74/superheroes/608a2ed513120c03e81c9805",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Superheroe\": \"Hulk\",\r\n    \"poder\":      \"Fuerza\",\r\n    \"genero\":      \"M\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://crudcrud.com/api/5f8d94e9a14c49dea681c6db84aedb74/superheroes/608a2ed513120c03e81c9805",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"5f8d94e9a14c49dea681c6db84aedb74",
+						"superheroes",
+						"608a2ed513120c03e81c9805"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://crudcrud.com/api/5f8d94e9a14c49dea681c6db84aedb74/superheroes/608a2ed513120c03e81c9805",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://crudcrud.com/api/5f8d94e9a14c49dea681c6db84aedb74/superheroes/608a2ed513120c03e81c9805",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"5f8d94e9a14c49dea681c6db84aedb74",
+						"superheroes",
+						"608a2ed513120c03e81c9805"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
